@@ -12,3 +12,13 @@ Cargo.lock
 
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
+
+# direnv binaries
+.direnv/
+
+# node e2e test tools and outputs
+node_modules/
+test-results/
+end2end/playwright-report/
+playwright/.cache/
+
